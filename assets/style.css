@@ -1,0 +1,43 @@
+@charset "UTF-8";
+:root{
+    --primary-color: #593622;
+    --primary-bg-color: #A67458;
+    --secondary-color: #260B01;
+    --border-color: #BFA38A;
+    --title-color: #593622;
+    --link-color: #BFA38A;
+    --body-color: #D9C9BA;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    vertical-align: baseline;
+    list-style: none;
+}
+body{
+    background-color: var(--body-color);
+}
+
+.header{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    color: #593622;
+    width: 100%;
+}
+.header_ico .headerlogo{
+   width: 3.25rem;
+   height: 3.25rem;
+}
+.menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.amenu{
+    display: ;
+}
