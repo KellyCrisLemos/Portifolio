@@ -32,8 +32,11 @@ html[data-theme= 'light'] #testpng{
     box-sizing: border-box;
     vertical-align: baseline;
     list-style: none;
+    scrollbar-width: thin;
+    scrollbar-color: var(--link-color) transparent;
 }
 body{
+    overflow-x: hidden;
     background-color: var(--body-color);
     font-family: 'Inter', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -54,7 +57,7 @@ body{
     justify-content: space-between;
     background-color: var(--link-color);
     padding: .4rem;
-    border-top: 1px solid #260B01;
+    border-top: 1px solid var(--secondary-color);
     width: 100vw;
     position: fixed;
     bottom: 0;
@@ -100,18 +103,14 @@ footer> p, #final{
     padding-top: 2rem;
 }
 
-footer> p> a:hover{
-   background-color: var(--primary-bg-color);
-    color: var(--link-color);
-    font-weight: 400;
-}
+
 .tema #testpng{
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
     flex-wrap: wrap-reverse;
     align-content: flex-start;
-    margin: -40px 20px 0px 0px;
+    margin: -40px 60px 0px 0px;
     cursor: pointer;
     transition: ease-in-out .4s;
 }
@@ -193,7 +192,7 @@ main li, .menu-icon{
     color: var(--primary-bg-color);
 }   
 .main-content2 video{
-    width: 100%;
+    width: 70%;
     aspect-ratio: 16/9;
     border: 1px solid var(--primary-bg-color);
     margin-bottom: 5rem;
@@ -578,7 +577,7 @@ section #todos span{
     .main-content1 p{ 
         font-size: 2.3rem;
     }
-
+    
 
     .about__content2, h3, h4{ 
         color: var(--secondary-color);
