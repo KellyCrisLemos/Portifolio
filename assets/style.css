@@ -375,7 +375,7 @@ section #todos span{
 }
 .col2 p{
     font-size: 1.6rem;
-    margin: auto; 
+    margin-left: 2rem; 
     text-align: justify;
     width: 90%;
     padding: 1rem 0rem 1rem 0rem;
@@ -397,8 +397,10 @@ section #todos span{
 }
 
 @media (min-width: 768px){
-    nav .menu3{
+
+    .menu{
         display: none;
+
     }
 
     .desktopcabeca .listadesktop {
@@ -462,11 +464,14 @@ section #todos span{
         font-size: 2rem;
         margin-top: 1rem;
     }
+    .col2 p{
+        margin-left: 2rem; 
+    }
   
 }
 
 @media (min-width: 1200px){
-    nav .menu3{
+    .menu{
         display: none;
     }
 
@@ -536,14 +541,16 @@ section #todos span{
         height: 2rem;
         display: inline-flex;
         padding-right: 6rem;
-       }
-       
-      
+    }
+    .col2 p{
+        margin-left: 2rem; 
+    }
+   
 
 }
 
 @media (min-width: 1400px){
-    nav .menu3{
+    .menu{
         display: none;
     }
     h1{
@@ -605,6 +612,11 @@ section #todos span{
         text-indent: 1.5rem;
     }
 
+    .col2 p{
+        margin-left: 2rem; 
+    }
+
+
     .card-title{ 
         font-size: 3.2rem;
         width: 50rem;
@@ -622,4 +634,6 @@ section #todos span{
         font-weight: 600;
     }
 
+
+    
 }
