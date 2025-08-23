@@ -16,7 +16,3 @@ function changeTheme(){
   testpng.addEventListener("click", changeTheme);
 
 
-
-
-
-//() { }

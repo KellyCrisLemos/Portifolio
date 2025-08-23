@@ -328,11 +328,14 @@ section #todos span{
 }
 
 .about__content2, h3{ 
-    font-size: 2rem;
+    font-size: 1.8rem;
     font-weight: 600;
 }
 .about__content2, h4{ 
-    font-size: 1.8rem;
+    font-size: 1.6rem;
+    
+    
+    
 }
 
 .about__content2 span{  
@@ -348,7 +351,10 @@ section #todos span{
     line-height: 1.5;
     padding: .5rem;
 }
-
+.row2 h4{ 
+    font-size: 1.4rem;
+  
+}
    
 .row2 ul{  
     margin: 0rem 0rem 2rem 2rem;
@@ -375,13 +381,23 @@ section #todos span{
     padding: 1rem 0rem 1rem 0rem;
 }
 .card-title{ 
-    
-    font-size: 3.25rem;
+    font-size: 2rem;
+    width: 50rem;
+    margin-left: -2rem;
+} 
+.contact h2{ 
+    font-size: 1.6rem;
+    margin-top: 1rem;
+    font-weight: 600;
 }
+.contact p{ 
+    font-size: 1rem;
+    margin-top: 0.5rem;
    
+}
 
 @media (min-width: 768px){
-    nav .menu{
+    nav .menu3{
         display: none;
     }
 
@@ -426,8 +442,11 @@ section #todos span{
         margin-top: -2rem;
         margin-bottom: 6rem;
     }
+
     .card-title{ 
-        font-size: 3.3rem;
+        font-size: 3rem;
+        width: 50rem;
+        margin-left: -2rem;
     }
     .card-description{ 
         font-size: 2.3rem;
@@ -439,10 +458,18 @@ section #todos span{
     .main-content1 p{ 
         font-size: 2rem;
     }
+    .contact h2{ 
+        font-size: 2rem;
+        margin-top: 1rem;
+    }
   
 }
 
 @media (min-width: 1200px){
+    nav .menu3{
+        display: none;
+    }
+
     main{ 
         padding: 12rem 6rem 2rem;
 
@@ -493,8 +520,11 @@ section #todos span{
     
     }
     .card-title{ 
-        font-size: 3.25rem;
+        font-size: 3.2rem;
+        width: 50rem;
+        margin-left: -2rem;
     }
+
     .card-description, .card-item{ 
         font-size: 2.25rem;
     }
@@ -513,6 +543,9 @@ section #todos span{
 }
 
 @media (min-width: 1400px){
+    nav .menu3{
+        display: none;
+    }
     h1{
         font-size: 6.25rem;
         
@@ -572,11 +605,21 @@ section #todos span{
         text-indent: 1.5rem;
     }
 
+    .card-title{ 
+        font-size: 3.2rem;
+        width: 50rem;
+        margin-left: -3.31rem;
+    }
+    .contact p{ 
+        font-size: 1.5rem;
+       
+    }
 
 
-
-
-
-
+    .contact h2{ 
+        font-size: 1.6rem;
+        margin-top: 1rem;
+        font-weight: 600;
+    }
 
 }
