@@ -42,13 +42,14 @@ body{
 }
 
 .header{
-    display: flex;
+    display: none;
     flex-flow: row wrap;
     justify-content: space-between;
     align-items: center;
     padding: 0.313rem;
     color: #593622;
     width: 100%;
+    
 }
 
 .menu{
@@ -56,8 +57,8 @@ body{
     align-items: center;
     justify-content: space-between;
     background-color: var(--link-color);
-    padding: .4rem;
-    border-top: 1px solid var(--secondary-color);
+    padding: .2rem;
+    border-top: 0.06rem solid var(--secondary-color);
     width: 100vw;
     position: fixed;
     bottom: 0;
@@ -69,7 +70,7 @@ body{
     align-items: center;
     text-decoration: none;
     color: var(--secondary-color);
-    width: 100%; 
+    width: 100vw; 
 }
 .iconemenu{
 font-size: 1.5rem;
@@ -110,7 +111,7 @@ footer> p, #final{
     justify-content: flex-end;
     flex-wrap: wrap-reverse;
     align-content: flex-start;
-    margin: -40px 60px 0px 0px;
+    margin: -2.5rem 3.75rem 0rem 0rem;
     cursor: pointer;
     transition: ease-in-out .4s;
 }
@@ -153,6 +154,7 @@ main{
  .menu-social{ 
     gap: 1rem;
  }
+
  .btn{ 
   display: flex;
   gap: 0.625rem;
@@ -172,7 +174,7 @@ main{
     transition: ease-in-out .3s;
  }
  .btn-primario{
-    border: 1px solid var(--primary-bg-color);
+    border: 0.063rem solid var(--primary-bg-color);
 } 
 
 .btn-primario span{
@@ -184,7 +186,7 @@ main{
  text-transform: uppercase;
  }
 
-main li, .menu-icon{
+main li, .mmenu-icon{
     display: inline-flex;
     flex-direction: row;
     justify-content: center;
@@ -192,9 +194,9 @@ main li, .menu-icon{
     color: var(--primary-bg-color);
 }   
 .main-content2 video{
-    width: 70%;
+    width: 100%;
     aspect-ratio: 16/9;
-    border: 1px solid var(--primary-bg-color);
+    border: 0.063rem solid var(--primary-bg-color);
     margin-bottom: 5rem;
 }   
 
@@ -225,7 +227,7 @@ main li, .menu-icon{
     justify-content: center;
     align-items: center;
     gap: 3rem;
-    border: 1px solid var(--primary-color);
+    border: 0.063rem solid var(--primary-color);
     border-radius: 50rem; 
  }
 .halit{ 
@@ -283,6 +285,7 @@ h5{
  display: inline-flex;
  padding-right: 5rem;
 }
+
 a{ 
 text-decoration: none;
 color: var(--secondary-color);
@@ -293,7 +296,7 @@ color: var(--secondary-color);
 #projetos3{ 
     background-color: var(--body-color);
 }
-.menu-icon{ 
+.mmenu-icon{ 
     font-size: 2.2rem;
 }
 section #todos{ 
@@ -380,24 +383,51 @@ section #todos span{
     padding: 1rem 0rem 1rem 0rem;
 }
 .card-title{ 
-    font-size: 2rem;
+    font-size: 1.8rem;
     width: 50rem;
     margin-left: -2rem;
 } 
 .contact h2{ 
     font-size: 1.6rem;
     margin-top: 1rem;
-    font-weight: 600;
+    font-weight: 400;
+   
 }
 .contact p{ 
     font-size: 1rem;
-    margin-top: 0.5rem;
-   
+    margin: 2rem;
+    text-align: center;
+  
+}
+.contact .email{ 
+    font-size: 1rem;
+    margin-top: 0.9rem;
+    display: flex;
+    justify-content: center;
+    color: rgb(61, 6, 6);
+}
+.ico-final .menu--social{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1.5rem;
+    margin-top: 0.9rem;
+
+}
+.menu__icon{
+    color: rgb(61, 6, 6);
 }
 
-@media (min-width: 768px){
+.card-item{ 
+    font-size: 1.7rem;
+}
 
-    .menu{
+
+
+
+@media screen and (min-width: 768px){
+
+    .cmenu .menu{
         display: none;
 
     }
@@ -406,8 +436,9 @@ section #todos span{
         display: flex;
         flex-direction: row;
         padding: 1rem 1rem;
-        border-bottom: 1px solid var(--secondary-color);
+        border-bottom: 0.063rem solid var(--secondary-color);
         background-color: var(--primary-bg-color);
+        
     }
     .desktopcabeca .listadesktop .desktopli > a{
         font-size: 1rem;
@@ -636,3 +667,4 @@ section #todos span{
 
     
 }
+
